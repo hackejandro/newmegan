@@ -1,4 +1,5 @@
 function showImages() {
+  console.log('Click event triggered');
   const bookImage = document.querySelector('.book-image');
   const geeseImage = document.querySelector('.geese-image');
   const jellyfishImage = document.querySelector('.jellyfish-image');
@@ -12,3 +13,4 @@ function showImages() {
 
 const tinyImage = document.querySelector('.tiny-image');
 tinyImage.addEventListener('click', showImages);
+console.log('Click event triggered');
