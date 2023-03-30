@@ -55,8 +55,9 @@
   height: 150px;
   margin: auto;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   align-items: right;
+  left: 0;
 }
 
 .jiggle {
