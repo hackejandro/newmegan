@@ -84,7 +84,7 @@
 .text-message-image {
   position: absolute;
   bottom: 20px;
-  left: 50%;
+  left: 75%;
   transform: translateX(-50%);
 }
 
