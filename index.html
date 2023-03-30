@@ -1,38 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blank Page</title>
-    <meta charset="UTF-8">
-    <style>
-      /* styles for the images */
-      img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: auto;
-      }
-
-      /* styles for the hidden images */
-      .hidden {
-        display: none;
-      }
-    </style>
+    <title>Blank Homage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <img class="tiny-image" src="https://dummyimage.com/50x50/000/fff">
-
-    <img class="book-image hidden" src="https://dummyimage.com/300x400/000/fff">
-    <p class="book-caption hidden">This is a picture of a book.</p>
-
-    <img class="geese-image hidden" src="https://dummyimage.com/600x300/000/fff">
-
-    <img class="jellyfish-image hidden" src="https://dummyimage.com/200x200/000/fff">
-    <img class="jellyfish-image hidden" src="https://dummyimage.com/200x200/000/fff">
-    <img class="jellyfish-image hidden" src="https://dummyimage.com/200x200/000/fff">
-
-    <img class="burnt-marshmallow-image hidden" src="https://dummyimage.com/100x100/000/fff">
-
-    <img class="text-message-image hidden" src="https://dummyimage.com/200x100/000/fff">
+    <div class="blank-homage">
+      <img src="tiny-image.png" alt="Tiny Image" class="tiny-image">
+      <div class="book-image hidden">
+        <img src="book-cover.jpg" alt="Book Cover">
+        <p class="caption">Caption for Book Cover</p>
+      </div>
+      <div class="geese-image hidden">
+        <img src="geese.gif" alt="Flock of Geese">
+      </div>
+      <div class="jellyfish-image hidden">
+        <img src="jellyfish.gif" alt="Jellyfish" class="jiggle">
+        <img src="jellyfish.gif" alt="Jellyfish" class="jiggle">
+      </div>
+      <img src="burnt-marshmallow.png" alt="Burnt Marshmallow" class="burnt-marshmallow">
+      <div class="text-message-image hidden">
+        <img src="text-message.png" alt="Text Message">
+      </div>
+    </div>
 
     <script type="text/javascript" src="script.js"></script>
   </body>
