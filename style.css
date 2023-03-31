@@ -24,7 +24,7 @@
 }
 
 .book-image img {
-  width: 50%;
+  width: 25%;
 
 }
 
@@ -50,14 +50,8 @@
 }
 
 .jellyfish-image {
-  position: absolute;
   width: 150px;
   height: 150px;
-  margin: auto;
-  display: flex;
-  justify-content: left;
-  align-items: right;
-  left: 0;
 }
 
 .jiggle {
