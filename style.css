@@ -124,3 +124,7 @@
     transform: translateY(100%);
   }
 }
+
+#kopen-text {
+  pointer-events: none;
+}
