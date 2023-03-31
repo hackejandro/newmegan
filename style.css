@@ -85,7 +85,7 @@
 }
 
 .text-message-image img:hover {
-  transform: scale(2.0);
+  transform: scale(2.5);
 }
 
 .text-message-image img {
