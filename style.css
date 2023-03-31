@@ -53,6 +53,9 @@
 .jellyfish-image {
   width: 150px;
   height: 150px;
+  position: absolute;
+  left: 90%;
+  top: 75%;
 }
 
 .jiggle {
