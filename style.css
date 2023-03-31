@@ -54,8 +54,6 @@
   width: 150px;
   height: 150px;
   position: absolute;
-  left: 90%;
-  top: 75%;
 }
 
 .jiggle {
@@ -87,7 +85,7 @@
 }
 
 .text-message-image img:hover {
-  transform: scale(1.2);
+  transform: scale(2.0);
 }
 
 .text-message-image img {
