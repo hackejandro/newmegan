@@ -166,7 +166,7 @@
   z-index: 1;
 }
 
-.contact:hover .contact-info {
+.contact:click .contact-info {
   display: block;
 }
 
