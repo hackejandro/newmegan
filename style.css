@@ -137,6 +137,40 @@
   height: 200px;
 }
 
+.contact {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  cursor: pointer;
+}
+
+.contact p {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-bottom-right-radius: 5px;
+  z-index: 1;
+}
+
+.contact:hover .contact-info {
+  display: block;
+}
+
+
 /* .kopen-text {
   position: fixed;
   top: 0;
