@@ -13,7 +13,7 @@ function showImages() {
   textMessageImage.classList.remove('hidden');
   marshmallowImage.classList.remove('hidden');
   newJellyfishImage.classList.remove('hidden');
-  byeTinyImage.classlist.add('hidden');
+  byeTinyImage.classList.add('hidden');
 }
 
 const tinyImage = document.querySelector('.tiny-image');
