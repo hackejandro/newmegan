@@ -69,12 +69,25 @@
   }
 }
 
-.jellyfish-image {
+/* .jellyfish-image {
   bottom: 20px;
   left: 20px;
   display: flex;
   position: absolute;
   display: block;
+} */
+
+.jellyfish-image-bottom {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0c0c0;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .jiggle {
