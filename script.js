@@ -2,7 +2,6 @@ function showImages() {
   console.log('Click event triggered');
   const bookImage = document.querySelector('.book-image');
   const geeseImage = document.querySelector('.geese-image');
-//   const jellyfishImage = document.querySelector('.jellyfish-image');
   const textMessageImage = document.querySelector('.text-message-image');
   const marshmallowImage = document.querySelector('.burnt-marshmallow');
   const newJellyfishImage = document.querySelector('.jellyfish-image-bottom');
@@ -10,7 +9,6 @@ function showImages() {
 
   bookImage.classList.remove('hidden');
   geeseImage.classList.remove('hidden');
-//   jellyfishImage.classList.remove('hidden');
   textMessageImage.classList.remove('hidden');
   marshmallowImage.classList.remove('hidden');
   newJellyfishImage.classList.remove('hidden');
