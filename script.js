@@ -5,6 +5,7 @@ function showImages() {
   const textMessageImage = document.querySelector('.text-message-image');
   const marshmallowImage = document.querySelector('.burnt-marshmallow');
   const newJellyfishImage = document.querySelector('.jellyfish-image-bottom');
+  const byeTinyImage = document.querySelector('.tiny-image');
 
 
   bookImage.classList.remove('hidden');
@@ -12,6 +13,7 @@ function showImages() {
   textMessageImage.classList.remove('hidden');
   marshmallowImage.classList.remove('hidden');
   newJellyfishImage.classList.remove('hidden');
+  byeTinyImage.classlist.add('hidden');
 }
 
 const tinyImage = document.querySelector('.tiny-image');
