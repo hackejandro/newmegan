@@ -86,8 +86,9 @@
   transform: rotate(45deg);
   animation-name: moveJellyfish;
   animation-duration: 45s;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
+  z-index: -1;
 }
 
 @keyframes moveJellyfish {
