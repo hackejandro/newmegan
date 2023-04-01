@@ -52,6 +52,12 @@
   text-align: center;
 }
 
+.koopknop {
+  left: 50%;
+  width:40px;
+  height:40px;
+}  
+
 .geese-image {
   position: absolute;
   top: 50%;
