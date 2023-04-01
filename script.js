@@ -5,12 +5,15 @@ function showImages() {
   const jellyfishImage = document.querySelector('.jellyfish-image');
   const textMessageImage = document.querySelector('.text-message-image');
   const marshmallowImage = document.querySelector('.burnt-marshmallow');
+  const newJellyfishImage = document.querySelector('.jellyfish-image-bottom');
+
 
   bookImage.classList.remove('hidden');
   geeseImage.classList.remove('hidden');
   jellyfishImage.classList.remove('hidden');
   textMessageImage.classList.remove('hidden');
   marshmallowImage.classList.remove('hidden');
+  newJellyfishImage.classList.remove('hidden');
 }
 
 const tinyImage = document.querySelector('.tiny-image');
