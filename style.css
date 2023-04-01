@@ -78,12 +78,24 @@
 } */
 
 .jellyfish-image-bottom {
-  position: absolute;
-  top:80%;
-  left:20%;
+ position: absolute;
+  bottom: 0;
+  left: 0;
   width: 150px;
   height: 150px;
-  transform: rotate(45deg);
+  animation-name: moveJellyfish;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moveJellyfish {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(calc(100vw - 150px), calc(-100vh + 150px));
+  }
 }
 
 .jiggle {
