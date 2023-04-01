@@ -78,13 +78,11 @@
 } */
 
 .jellyfish-image-bottom {
-  position: relative;
+  position: absolute;
+  top:80%;
+  left:50%;
   width: 150px;
   height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
 }
 
 .jiggle {
