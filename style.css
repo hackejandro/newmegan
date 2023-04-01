@@ -83,8 +83,9 @@
   left: 0;
   width: 150px;
   height: 150px;
+  transform: rotate(45deg);
   animation-name: moveJellyfish;
-  animation-duration: 5s;
+  animation-duration: 45s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
